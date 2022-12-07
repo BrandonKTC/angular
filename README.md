@@ -4,7 +4,7 @@
 
 - [x] Introduction
 - [x] Bootstrapping Angular
-- [] OPTIONAL Typescript
+- [x] OPTIONAL Typescript
 - [] Component Fundamentals
 - [] Transforming Content
 - [] Master Project Component Design
