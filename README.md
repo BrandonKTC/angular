@@ -6,7 +6,7 @@
 - [x] Bootstrapping Angular
 - [x] OPTIONAL Typescript
 - [x] Component Fundamentals
-- [] Transforming Content
+- [x] Transforming Content
 - [] Master Project Component Design
 - [] Master Project Reactive Forms
 - [] Master Project: Template Forms
