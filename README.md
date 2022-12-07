@@ -3,7 +3,7 @@
 ### Get job ready with Angular! Master the latest version of Angular and learn to build large scale apps that set you apart
 
 - [x] Introduction
-- [] Bootstrapping Angular
+- [x] Bootstrapping Angular
 - [] OPTIONAL Typescript
 - [] Component Fundamentals
 - [] Transforming Content
