@@ -1,1 +1,6 @@
-<p>Hello World</p>
+<app-post [postImg]="imgURL" (selectedImg)="logImg($event)">
+	<p>Some Content</p>
+</app-post>
+
+<p>Hello {{ name }}!</p>
+<p>{{ getName() }}</p>
