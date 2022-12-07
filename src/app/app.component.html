@@ -1,6 +1,27 @@
-<app-post [postImg]="imgURL" (selectedImg)="logImg($event)">
-	<p>Some Content</p>
+<p *ngIf="blueClass">Button is blue.</p>
+
+<button
+	(click)="blueClass = !blueClass"
+	[ngClass]="{ blue: blueClass }"
+	[ngStyle]="{ 'font-size.px': fontSize }"
+>
+	Change
+</button>
+
+<hr />
+
+<app-post
+	*ngFor="let image of images; let i = index"
+	[postImg]="image"
+	(selectedImg)="logImg($event)"
+>
+	<p>{{ i + 1 }} Some Content</p>
 </app-post>
 
-<p>Hello {{ name }}!</p>
-<p>{{ getName() }}</p>
+<p>Hello {{ name | titlecase }}!</p>
+<p>Hello {{ getName() }}!</p>
+<p>{{ 15 + 13 }}</p>
+<p>{{ currentDate | date : "medium" }}</p>
+<p>{{ cost | currency : "EUR" }}</p>
+<p>{{ temperature | number : ".1" }}</p>
+<pre>{{ pizza | json }}</pre>
