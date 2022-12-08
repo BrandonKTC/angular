@@ -1,22 +1,27 @@
-# Complete Angular Developer in 2022: Zero to Mastery
+# Clips
 
-### Get job ready with Angular! Master the latest version of Angular and learn to build large scale apps that set you apart
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
-- [x] Introduction
-- [x] Bootstrapping Angular
-- [x] OPTIONAL Typescript
-- [x] Component Fundamentals
-- [x] Transforming Content
-- [] Master Project Component Design
-- [] Master Project Reactive Forms
-- [] Master Project: Template Forms
-- [] Intro to RxJS
-- [] Master Project: Authentication
-- [] Master Project: Custom Validators
-- [] Master Project: Routing
-- [] Master Project: Uploading Files
-- [] WebAssembly & Rust
-- [] Master Project: Processing Videos with FFmpeg
-- [] Master Project: Playing Videos
-- [] Master Project: Deployment
-- [] Master Project: Testing
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
